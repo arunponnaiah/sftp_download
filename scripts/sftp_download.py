@@ -2,8 +2,6 @@
 import pysftp
 import sys
 
-#def printTotals(transferred, toBeTransferred):
-#    print "Transferred: {0}\tOut of: {1}".format(transferred, toBeTransferred)
 cmdargs = str(sys.argv)	
 print cmdargs
 hostname = sys.argv[1]
